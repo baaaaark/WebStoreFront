@@ -1,0 +1,8 @@
+<div class="box" *ngFor="let item of items"> 
+    <a [routerLink]="['../app-single-item-display', item.id]" class="item-box">
+        <img src={{item.imageLocation}}><br>
+        {{item.itemName}}<br>
+        {{item.itemDescription}}<br>
+        ${{item.price}}.00<br>
+    </a>
+</div>

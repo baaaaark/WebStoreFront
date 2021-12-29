@@ -1,0 +1,12 @@
+.box {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item-box{
+    height: 20%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.itempage {
+  width: 98%;   
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: right;
+  margin-bottom: 20px;
+    
+}
